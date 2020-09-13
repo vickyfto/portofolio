@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:ital@1&display=swap");
+/* 
+div {
+  border: 1px solid black;
+} */
+
+/* reusable css start  */
+.head-text {
+  font-family: "Nunito", sans-serif;
+}
+
+.child-text {
+  font-family: "Roboto", sans-serif;
+}
+/* reusable css end */
+
+/* skills list start  */
+
+.row-container {
+  margin: 50px;
+}
+
+/* skills list end  */
+
+.main-bg {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./asset/img2.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text-fight-fighter {
+  font-size: 7vw;
+  margin: 150px 0 0 50px;
+  color: rgb(235, 230, 230);
+  letter-spacing: 4px;
+}
+
+/* ------------------------- nav start ------------------------- */
+.nav-link:hover {
+  background-color: rgb(223, 215, 215);
+  border-radius: 3px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+/* ------------------------- nav end ------------------------- */
+
+/*  -------------------------------- what we do start--------------------------------  */
+
+.bg-portofolio {
+  margin-top: 10px;
+  width: 100%;
+  height: 130vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./asset/bgg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.inner-width {
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+  max-width: 1000px;
+}
+.section-title {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border-what-we-do {
+  width: 160px;
+  height: 2px;
+  background: #000000;
+  margin: 40px auto;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.service-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon {
+  background: #ffffff;
+  color: #ddd;
+}
+.service-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+  .service-box {
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-box {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-box {
+    max-width: 100%;
+  }
+}
+
+/*  -------------------------------- what we do end --------------------------------  */
+
+/* -------------------------------- perform works start -------------------------------- */
+/* .wrap-perform-works {
+  width: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-perform-works ul li {
+  display: inline-block;
+  margin: 40px;
+} */
+/* -------------------------------- perform works end -------------------------------- */
+
+/* -------------------------------- about us start -------------------------------- */
+
+.about-section {
+  background: url("./asset/bgg.jpg");
+  opacity: 0.8;
+  margin-left: 20%;
+  width: 60%;
+  padding: 10px 0;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-attachment: fixed;
+}
+
+.about-section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.border-why-us {
+  width: 130px;
+  height: 3px;
+  background: #000000;
+  margin: 10px auto;
+}
+.about-section-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-section-col {
+  flex: 50%;
+}
+.about {
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .about-section-col {
+    flex: 100%;
+    margin: 10px 0;
+  }
+  .about,
+  .skills {
+    padding: 0;
+  }
+  .about {
+    text-align: center;
+  }
+}
+
+/* about us end */
+
+/* icon social media start  */
+
+/* icon social media end */
