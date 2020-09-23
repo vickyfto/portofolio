@@ -4,6 +4,10 @@ div {
   border: 1px solid black;
 } */
 
+* {
+  box-sizing: border-box;
+}
+
 /* reusable css start  */
 .head-text {
   font-family: "Nunito", sans-serif;
